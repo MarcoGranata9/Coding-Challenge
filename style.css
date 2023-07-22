@@ -1,0 +1,71 @@
+body{
+    background-image: url(background.jpg);
+    background-size: 1920px;
+}
+
+h1{
+    color: rgba(0,221,0,255);
+}
+
+nav{
+    background-color: rgba(0,221,0,255);
+    padding: 10px;
+}
+
+main{
+    text-align: left;
+    color: white;
+}
+
+section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 2%;
+    text-align: center;
+    padding: 90px;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+}
+
+.monopattino{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.arrow{
+    font-size: large;
+}
+
+.arrow::before{
+    content: "\21A6";
+}
+
+.carica{
+    background-color: orange;
+    width: 300px;
+}
+
+.carica2{
+    background-color: green;
+    width: 600px;
+}
+
+.carica3{
+    background-color: red;
+    width: 100px;
+}
+
+.carica, .carica2, .carica3{
+    height: 30px;
+    border-radius: 5px;
+}
